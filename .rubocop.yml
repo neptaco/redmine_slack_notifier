@@ -1,0 +1,13 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/{rails,rake}'
+    - 'vendor/**/*'
+    - !ruby/regexp /old_and_unused\.rb$/
+
+Rails:
+  Enabled: true

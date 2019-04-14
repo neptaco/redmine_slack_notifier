@@ -1,0 +1,7 @@
+# Japanese strings go here for Rails i18n
+ja:
+  label_slack_notifier_settings: Slack通知
+  label_slack_notifier_share_channel: Slack共有用チャンネル
+  field_slack_notifier_no_self_notified: "自分自身による変更の通知は不要"
+  field_slack_notifier_enabled: "Slackに通知する"
+

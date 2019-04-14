@@ -1,0 +1,11 @@
+<p>
+  <label for="slack_notifier_project_channel">
+    <span>
+      <%= l :label_slack_notifier_share_channel %>
+    </span>
+  </label>
+  <input type="text" name="project[slack_project_preference_attributes][channel]"
+         id="slack_notifier_project_channel"
+         value="<%= @project.slack_channel %>"
+    />
+</p>

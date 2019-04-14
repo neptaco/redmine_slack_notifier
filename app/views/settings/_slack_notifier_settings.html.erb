@@ -1,0 +1,14 @@
+<p>
+  <label for="token">Slack Api Token</label>
+  <input type="text" id="token" size=80 value="<%= settings['token'] %>" name="settings[token]" />
+</p>
+
+<p>
+  Slack Apps を <a href="https://api.slack.com/apps">このページ</a> から作成してBot User Access Tokenを設定してください。
+</p>
+
+
+<p>
+  <label for="channel"><%= l :label_slack_notifier_share_channel %></label>
+  <input type="text" id="channel" size="80" value="<%= settings['channel'] %>" name="settings[channel]" />
+</p>
