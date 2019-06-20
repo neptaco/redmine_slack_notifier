@@ -15,6 +15,11 @@ bundle exec rake redmine:plugins:migrate
 
 ## Setup
 
+### Create Slack Bot Api Token
+
+Create Apps and Get Bot token
+https://api.slack.com/apps
+
 ### Setup Slack Api Token
 
 1. Administration -> Plugins -> Redmine Slack Notifier plugin (Configure)
