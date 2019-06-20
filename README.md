@@ -25,11 +25,17 @@ https://api.slack.com/apps
 1. Administration -> Plugins -> Redmine Slack Notifier plugin (Configure)
 2. Input `Slack Api Token`
 
-### Setup Slack Channel
+### Personal seetings
+
+http[s]://{host}/my/account ->  Slack notifier enabled
+
+Notification policy reference Email notifications settings 
+
+### Shared channel settings
 
 Please set the channel name to post in any of the following.
 
 - Project Settings -> share_channel
     - Can be set for each project
 - Administration -> Plugins -> Redmine Slack Notifier plugin (Configure)
-    - Project settings apply to all empty projects
+    - Projects with empty project individual settings use this.
