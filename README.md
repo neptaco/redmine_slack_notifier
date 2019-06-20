@@ -25,7 +25,7 @@ https://api.slack.com/apps
 1. Administration -> Plugins -> Redmine Slack Notifier plugin (Configure)
 2. Input `Slack Api Token`
 
-### Personal seetings
+### Personal settings
 
 http[s]://{host}/my/account ->  Slack notifier enabled
 
